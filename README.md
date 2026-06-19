@@ -1,4 +1,3 @@
-
 # ☁️ Automated AWS Infrastructure Deployment via Terraform & Python
 
 ## 📌 Project Overview
@@ -20,17 +19,16 @@ Deploying scalable cloud infrastructure manually via the AWS Console is prone to
 
 ## 🚀 Execution & Automation Script
 
-To execute this entire infrastructure build without interacting directly with the Terraform CLI:
+To execute this entire infrastructure build without interacting directly with the Terraform CLI, run the following command:
 
-```python
-# The python orchestrator runs:
-# 1. tf.init()
-# 2. tf.plan()
-# 3. tf.apply(skip_plan=True) # Auto-Approve deployment
-python3 deploy.py
+> **`python3 deploy.py`**
 
-✅ Successful Deployment Output
+## ✅ Successful Deployment Output
+
 Here is the final execution output from the Python wrapper script, confirming successful Terraform planning, resource provisioning, and AWS deployment.
 
-Built with 💻 by Muhammad Ali | Cloud Computing & DevOps Enthusiast
+![Deployment Success](Screenshot%202026-03-17%20032119.jpg)
+
+---
+*Built with 💻 by Muhammad Ali | Cloud Computing & DevOps Enthusiast*
 

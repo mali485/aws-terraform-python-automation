@@ -19,16 +19,10 @@ Deploying scalable cloud infrastructure manually via the AWS Console is prone to
 
 ## 🚀 Execution & Automation Script
 
-To execute this entire infrastructure build without interacting directly with the Terraform CLI, run the following command:
+To execute this entire infrastructure build without interacting directly with the Terraform CLI, run the following command in your terminal:
 
-> **`python3 deploy.py`**
+```bash
+python3 deploy.py
 
-## ✅ Successful Deployment Output
-
-Here is the final execution output from the Python wrapper script, confirming successful Terraform planning, resource provisioning, and AWS deployment.
-
-![Deployment Success](Screenshot%202026-03-17%20032119.jpg)
-
----
-*Built with 💻 by Muhammad Ali | Cloud Computing & DevOps Enthusiast*
+Built with 💻 by Muhammad Ali | Cloud Computing & DevOps Enthusiast
 

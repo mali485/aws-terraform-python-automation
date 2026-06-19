@@ -1,3 +1,4 @@
+
 # ☁️ Automated AWS Infrastructure Deployment via Terraform & Python
 
 ## 📌 Project Overview
@@ -32,3 +33,4 @@ python3 deploy.py
 Here is the final execution output from the Python wrapper script, confirming successful Terraform planning, resource provisioning, and AWS deployment.
 
 Built with 💻 by Muhammad Ali | Cloud Computing & DevOps Enthusiast
+
